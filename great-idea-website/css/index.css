@@ -189,6 +189,7 @@ nav {
 	top: 0;
 	z-index: 1;
 	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
 
 nav a {
@@ -316,4 +317,5 @@ header {
 footer {
 	display: inline-block;
 	margin: 0 40% 80px;
+	text-align: center;
 }
