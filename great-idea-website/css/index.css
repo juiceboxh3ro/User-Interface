@@ -64,12 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body { 
+
+/* Flex Version */
+/*body { 
 	width: 1100px;
 	margin: auto;
 }
 
-nav {
+/* Nav Bar */
+/*
+ nav {
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
@@ -80,6 +84,8 @@ nav a {
 	text-decoration: none;
 }
 
+/* Header Section */
+/*
 header {
 	display: flex;
 	justify-content: center;
@@ -109,6 +115,8 @@ header {
 
 #header-left #btn:hover { cursor: pointer; }
 
+/* First Section */
+/*
 section#top {
 	display: flex;
 	padding: 30px 0 50px 0;
@@ -116,6 +124,9 @@ section#top {
 
 section#top #features { margin-right: 100px; }
 
+
+/* Middle Banner */
+/*
 #middle-banner {
 	display: flex;
 	justify-content: center;
@@ -127,6 +138,9 @@ section#top #features { margin-right: 100px; }
 	height: auto;
 }
 
+
+/* Second Section */
+/*
 section#bottom {
 	display: flex;
 	padding: 30px 0 50px 0;
@@ -136,10 +150,128 @@ section#bottom {
 #services { margin-right: 10px; }
 #product { margin-right: 10px; }
 
+
+/* Contact */
+/*
 #contact { margin-top: 40px; }
 
+
+/* Footer */
+/*
 footer {
 	margin: 50px auto 50px auto;
 	display: flex;
 	justify-content: center;
+} */
+
+/* Non-flex */
+/* Reset */
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: 0;
+	text-decoration: none;
+}
+
+body { 
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+/* Nav Section */
+
+nav {
+	display: inline-block;
+	margin: 0 3%;
+	width: 100%
+}
+
+nav a {
+	margin-right: 7%;
+	color: #d0d0d0;
+}
+
+nav a:last-child { margin-right: 0; }
+
+/* Header */
+
+header { border-bottom: 1px solid black; }
+
+#header-left {
+	display: inline-block;
+	text-align: center;
+	margin: 0 3%;
+	width: 40%;
+}
+
+#header-left h1 { 
+	font-size: 5rem;
+}
+
+#header-left #btn {
+	display: inline-block;
+	padding: 10px 50px;
+	border: 1px solid black;
+}
+
+#header-left #btn:hover { cursor: pointer; }
+
+#header-right {
+	display: inline-block;
+	width: 40%;
+	margin: 80px 3%;
+}
+
+
+/* Section: Features & About */
+#top { margin: 40px 0; }
+
+#features {
+	display: inline-block;
+	width: 49%;
+}
+
+#about {
+	display: inline-block;
+	width: 49%;
+}
+
+
+/* Section: Middle Banner */
+#middle-banner img { width: 100%; }
+
+
+/* Section: Services, Product, Vision */
+#bottom {
+	margin: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+#services {
+	display: inline-block;
+	width: 32%;
+}
+
+#product {
+	display: inline-block;
+	width: 32%;
+	margin: 0 1%;
+	padding-bottom: 40px;
+}
+
+#vision {
+	display: inline-block;
+	width: 32%;
+}
+
+
+/* Footer */
+#contact {
+	margin-bottom: 40px;
+}
+
+footer {
+	display: inline-block;
+	margin: 0 40% 80px;
 }
