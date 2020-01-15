@@ -234,7 +234,17 @@ header {
 	display: inline-block;
 	padding: 10px 50px;
 	border: 1px solid black;
+	transition: 5s ease-in-out;
 }
+
+#header-left #btn:hover {
+	cursor: pointer;
+	background-color: #333;
+	color: #fff;
+	transform: translate(700px, 0);
+	border-radius: 100px;
+	border: 3px dashed pink;
+} 
 
 #header-right {
 	display: inline-block;
