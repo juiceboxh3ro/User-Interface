@@ -196,8 +196,17 @@ nav a {
 	color: #fff;
 }
 
+nav a:hover {
+	color: #e67ebb;
+}
+
 nav img {
 	margin: 0 3%;
+	transition: 0.3s ease-in;
+}
+
+nav img:hover {
+	transform: scale(1.5) rotate(180deg);
 }
 
 nav a:last-child { margin-right: 0; }
@@ -231,6 +240,18 @@ header {
 	display: inline-block;
 	width: 40%;
 	vertical-align: top;
+}
+
+#header-right img { transition: 0.5s ease-in; }
+
+#header-right img:hover {
+	transform: scale(0.5) rotate(360deg);
+}
+
+#middle-banner img { transition: 0.3s ease-in-out; }
+
+#middle-banner img:hover {
+	transform: skew(30deg);
 }
 
 #header-left #btn:hover { cursor: pointer; }
