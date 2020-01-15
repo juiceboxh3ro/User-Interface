@@ -174,21 +174,17 @@ footer {
 }
 
 body { 
-	width: 1100px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
 
 /* Nav Section */
 
-nav {
-	display: inline-block;
-	margin: 0 3%;
-	width: 100%
-}
+nav { margin: 40px 0 70px; }
 
 nav a {
-	margin-right: 7%;
+	margin-right: 8%;
 	color: #d0d0d0;
 }
 
@@ -196,12 +192,15 @@ nav a:last-child { margin-right: 0; }
 
 /* Header */
 
-header { border-bottom: 1px solid black; }
+header { 
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
 
 #header-left {
 	display: inline-block;
 	text-align: center;
-	margin: 0 3%;
+	margin: 40px 9% 0;
 	width: 40%;
 }
 
@@ -215,14 +214,13 @@ header { border-bottom: 1px solid black; }
 	border: 1px solid black;
 }
 
-#header-left #btn:hover { cursor: pointer; }
-
 #header-right {
 	display: inline-block;
 	width: 40%;
-	margin: 80px 3%;
+	vertical-align: top;
 }
 
+#header-left #btn:hover { cursor: pointer; }
 
 /* Section: Features & About */
 #top { margin: 40px 0; }
