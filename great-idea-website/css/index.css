@@ -64,3 +64,258 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Flex Version */
+/*body { 
+	width: 1100px;
+	margin: auto;
+}
+
+/* Nav Bar */
+/*
+ nav {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	color: #afafaf;
+	text-decoration: none;
+}
+
+/* Header Section */
+/*
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 0;
+	border-bottom: 1px solid black;
+}
+
+#header-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 100px;
+}
+
+#header-left h1 {
+	font-size: 5rem;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#header-left #btn {
+	width: auto;
+	padding: 10px 50px;
+	border: 1px solid black;
+}
+
+#header-left #btn:hover { cursor: pointer; }
+
+/* First Section */
+/*
+section#top {
+	display: flex;
+	padding: 30px 0 50px 0;
+}
+
+section#top #features { margin-right: 100px; }
+
+
+/* Middle Banner */
+/*
+#middle-banner {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+#middle-banner img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* Second Section */
+/*
+section#bottom {
+	display: flex;
+	padding: 30px 0 50px 0;
+	border-bottom: 1px solid black;
+}
+
+#services { margin-right: 10px; }
+#product { margin-right: 10px; }
+
+
+/* Contact */
+/*
+#contact { margin-top: 40px; }
+
+
+/* Footer */
+/*
+footer {
+	margin: 50px auto 50px auto;
+	display: flex;
+	justify-content: center;
+} */
+
+/* Non-flex */
+/* Reset */
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: 0;
+	text-decoration: none;
+}
+
+body { 
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Nav Section */
+
+nav {
+	background-color: steelblue;
+	border: 1px solid #333;
+	padding: 30px 0 30px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+nav a {
+	margin: 3%;
+	color: #fff;
+}
+
+nav a:hover {
+	color: #e67ebb;
+}
+
+nav img {
+	margin: 0 3%;
+	transition: 0.3s ease-in;
+}
+
+nav img:hover {
+	transform: scale(1.5) rotate(180deg);
+}
+
+nav a:last-child { margin-right: 0; }
+
+/* Header */
+
+header { 
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+#header-left {
+	display: inline-block;
+	text-align: center;
+	margin: 40px 9% 0;
+	width: 40%;
+}
+
+#header-left h1 { 
+	font-size: 5rem;
+}
+
+#header-left #btn {
+	display: inline-block;
+	padding: 10px 50px;
+	border: 1px solid black;
+	transition: 5s ease-in-out;
+}
+
+#header-left #btn:hover {
+	cursor: pointer;
+	background-color: #333;
+	color: #fff;
+	transform: translate(700px, 0);
+	border-radius: 100px;
+	border: 3px dashed pink;
+} 
+
+#header-right {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+#header-right img { transition: 0.5s ease-in; }
+
+#header-right img:hover {
+	transform: scale(0.5) rotate(360deg);
+}
+
+#middle-banner img { transition: 0.3s ease-in-out; }
+
+#middle-banner img:hover {
+	transform: skew(30deg);
+}
+
+#header-left #btn:hover { cursor: pointer; }
+
+/* Section: Features & About */
+#top { margin: 40px 0; }
+
+#features {
+	display: inline-block;
+	width: 49%;
+}
+
+#about {
+	display: inline-block;
+	width: 49%;
+}
+
+
+/* Section: Middle Banner */
+#middle-banner img { width: 100%; }
+
+
+/* Section: Services, Product, Vision */
+#bottom {
+	margin: 40px 0;
+	border-bottom: 1px solid black;
+}
+
+#services {
+	display: inline-block;
+	width: 32%;
+}
+
+#product {
+	display: inline-block;
+	width: 32%;
+	margin: 0 1%;
+	padding-bottom: 40px;
+}
+
+#vision {
+	display: inline-block;
+	width: 32%;
+}
+
+
+/* Footer */
+#contact {
+	margin-bottom: 40px;
+}
+
+footer {
+	display: inline-block;
+	margin: 0 40% 80px;
+	text-align: center;
+}
